@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.treasureh">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/tres4"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".QuestionTwo"></activity>
+        <activity
+            android:name=".BetweenActivity"
+            android:parentActivityName=".ActivityTwo" />
+        <activity
+            android:name=".ActivityFour"
+            android:parentActivityName=".ActivityThree" />
+        <activity
+            android:name=".ActivityThree"
+            android:parentActivityName=".BetweenActivity" />
+        <activity
+            android:name=".ActivityTwo"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Home"
+            android:id="@+id/grp1"
+            android:icon="@drawable/ic_home"/>
+
+        <item
+            android:title="Feedback"
+            android:id="@+id/grp2"
+            android:icon="@drawable/ic__chatboxes"/>
+
+        <item
+            android:title="Rate"
+            android:id="@+id/grp3"
+            android:icon="@drawable/ic_star"/>
+
+        <item
+            android:title="Share"
+            android:id="@+id/grp4"
+            android:icon="@drawable/ic_share"/>
+    </group>
+
+    <item android:title="Addtional Options">
+        <menu>
+            <item
+                android:title="Tools"
+                android:id="@+id/grp5"
+                android:icon="@drawable/ic_hammer"/>
+            <item
+                android:title="Studio Shortcuts"
+                android:id="@+id/grp6"
+                android:icon="@drawable/ic_keyboard"/>
+            <item
+                android:title="Donate"
+                android:id="@+id/grp7"
+                android:icon="@drawable/ic_dollar_symbol"
+                />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Tool Bar</string>
+    
+    <string-array name="spinArray">
+        <item>None</item>
+        <item>Song_1</item>
+        <item>Song_2</item>
+    </string-array>
+
+</resources>

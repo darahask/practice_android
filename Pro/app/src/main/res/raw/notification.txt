@@ -1,0 +1,49 @@
+public class Notification extends AppCompatActivity {
+
+    FloatingActionButton floatingActionButton;
+    private final String CHANNEL_ID = "pushnotifications";
+    private final int NOTIFICATION_ID = 001;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_notification);
+
+        floatingActionButton = findViewById(R.id.fab1);
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast.makeText(getApplicationContext(),"Check the notification drawer",Toast.LENGTH_SHORT).show();
+
+                createNotificationChannel();
+                NotificationCompat.Builder builder = new NotificationCompat.Builder(Notification.this,CHANNEL_ID);
+                builder.setSmallIcon(R.drawable.ic_notification)
+                        .setContentTitle("Simple Notification")
+                        .setContentText("Hey There, This is a simple notification")
+                        .setPriority(NotificationCompat.PRIORITY_DEFAULT);
+
+                NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(Notification.this);
+                notificationManagerCompat.notify(NOTIFICATION_ID,builder.build());
+
+            }
+        });
+    }
+
+    private void createNotificationChannel(){
+
+        if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.O)
+        {
+            CharSequence name = "personal notifications";
+            String description = "include all the personal notifications";
+            int importance = NotificationManager.IMPORTANCE_DEFAULT;
+
+            NotificationChannel notificationChannel = new NotificationChannel(CHANNEL_ID,name,importance);
+            notificationChannel.setDescription(description);
+
+            NotificationManager notificationManager = (NotificationManager)getSystemService(NOTIFICATION_SERVICE);
+            notificationManager.createNotificationChannel(notificationChannel);
+        }
+
+    }
+}

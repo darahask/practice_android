@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Pro</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="seek_bar">Seek Bar</string>
+    <string name="long_seek">
+        A seek bar is an extension of progress bar that adds a draggable thumb. The user can touch the thumb and drag left
+        or right to set the current progress level or use the arrow keys.
+    </string>
+    <string name="long_seek1">
+        The application and code of seek bar is given below.
+    </string>
+    <string name="seek3">
+        The code will be given below for the first one.  XML:
+    </string>
+    <string name="java">Java: (Landscape for better view)</string>
+    <string name="noti">Notification</string>
+    <string name="notification">
+        A notification is a message you display to the usr outside of your app"s normal UI. When you tell the system to issue a notification, it first appears as an icon in the notification area. To see the details of the notification, the user opens the notification drawer. Both the notification area and the notification drawer are system-controlled areas that the user can view at any time.
+    </string>
+    <string name="notification2">
+        To create a Notification we need to use an object of Notification.Compat.Builder class.
+    </string>
+    <string name="notification3">
+       Note : createNotificationChannel() is only used for android Versions 8 And Above. For Android versions below 8 the creation of channel is not required.
+    </string>
+</resources>

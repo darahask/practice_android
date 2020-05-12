@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyNews</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Preferences</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cardone">Chinese State Councilor and Foreign Minister Wang Yi, following talks with his counterpart from Pakistan, Shah Mahmood Qureshi, said that ‘China will stand up for justice on the Kashmir issue’</string>
+    <string name="cardtwo">Kerala, Karnataka, Maharashtra floods LIVE: Maharashtra govt releases Rs 154 cr as aid</string>
+    <string name="cardthree">Google explains why it’s killing on-screen back button with Android Q</string>
+    <string name="cardfour">Bharat Ratna for Pranab Mukherjee fitting recognition for his service to nation: PM Modi</string>
+    <string name="cardfive">Artificial Intelligence is redefining the Indian mobile phone market
+With the advent of IoT and AI learning, the smartphone will go beyond being just \'smart\' and will become intelligent.</string>
+    <string name="cardsix">If You Think Xiaomi\'s 100-Megapixel Camera Phone Will be Revolutionary, Read This.</string>
+    <string name="cardseven">\'Cloaked\' black hole discovered in early universe</string>
+    <string name="cardeight">Indian soil reaches Moon before Chandrayaan 2 - here\'s how
+An Israeli lander crashed on the Lunar surface, leaving everything except the Lunar Library, damaged. This library carried a tiny biological sample from India along with it.</string>
+</resources>

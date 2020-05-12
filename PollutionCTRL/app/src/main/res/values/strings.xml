@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PollutionCTRL</string>
+    <string name="dummy">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus lorem ac orci volutpat, at iaculis leo sagittis.
+        Integer tempor diam non blandit porttitor. Etiam et aliquam felis. Nulla sed orci sed turpis varius sollicitudin. Morbi dapibus ipsum
+        ut lacus ultricies finibus vitae laoreet enim. Nunc nisl erat, elementum et mi et, lobortis tristique metus. Aliquam vel tempus quam. Etiam
+        sit amet imperdiet eros, elementum molestie felis. Etiam eu odio faucibus, tincidunt velit sit amet, mollis sapien. Aliquam ac tempor
+        erat. Aliquamluctus enim elit,nec pulvinar tortor fermentum id. Donec mollis mi id lobortis venenatis.
+        Vivamus vitae erat id lectus placerat congue eget at est. Vivamus a varius nisi. Cras volutpat condimentum lacus, ac mattis est dapibus nec.
+        Mauris sagittis quam et ante lobortis condimentum. Aliquam aliquam sem magna, ac vulputate elit pellentesque ut. Pellentesque at leo tellus.
+        Nunc eu rutrum ipsum. Pellentesque molestie massa a ipsum fermentum, a fermentum odio dignissim. Nullam felis elit, pretium eget egestas et,
+        tristique in urna. Vestibulum id elit imperdiet, vulputate nisi ut, viverra ante. Pellentesque eros neque, hendrerit non aliquam vitae, pulv
+        inar lacinia odio. Nullam cursus molestie sem, eu laoreet enim scelerisque.
+    </string>
+    <string-array name="spinArray">
+        <item>air-pollution</item>
+        <item>water-pollution</item>
+        <item>plastic-pollution</item>
+        <item>other-pollution</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="large_text">
+        Sooner or later, we will have to recognise that the Earth has rights, too, to live without pollution.
+        What mankind must know is that human beings cannot live without Mother Earth, but the planet can live without humans.
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="fafa">"COPYRIGHT 2019 ALL RIGHTS RESERVED \n""Visit our website for more details"
+    </string>
+    <string name="channel_name">cf_alert</string>
+    <string name="channel_description">pings user about their cf</string>
+</resources>

@@ -1,0 +1,41 @@
+package com.example.pro;
+
+imports must be made....
+
+public class SeekBar extends AppCompatActivity {
+
+    DrawerLayout d;
+    ActionBarDrawerToggle myToggle;
+    android.widget.SeekBar seekBar;
+    TextView myText;
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_seek_bar);
+
+        seekBar = findViewById(R.id.seek1);
+        myText = findViewById(R.id.seek_text);
+
+        seekBar.setMax(100);
+        seekBar.setProgress(20);
+        myText.setText("Progress = 20");
+        myText.setTextSize(20);
+
+        seekBar.setOnSeekBarChangeListener(new android.widget.SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(android.widget.SeekBar seekBar, int progress, boolean fromUser) {
+                String s = String.valueOf(progress);
+                myText.setText("Progress = "+ s);
+                myText.setTextSize(progress);
+            }
+
+            @Override
+            public void onStartTrackingTouch(android.widget.SeekBar seekBar) {
+                Toast.makeText(getApplicationContext(),"onStartTrackingTouch() Triggers",Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onStopTrackingTouch(android.widget.SeekBar seekBar) {
+                Toast.makeText(getApplicationContext(),"onStopTrackingTouch() Triggers",Toast.LENGTH_SHORT).show();
+            }
+        });
+}
