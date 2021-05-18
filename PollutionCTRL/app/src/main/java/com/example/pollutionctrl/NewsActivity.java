@@ -125,7 +125,7 @@ public class NewsActivity extends AppCompatActivity implements LoaderManager.Loa
     public Loader<AirData> onCreateLoader(int id, @Nullable Bundle args) {
 
         final String url = "https://api.airvisual.com/v2/nearest_city";
-        final String API_KEY = "0b68b925-1d0e-4b6b-b91f-2a4919e5ef3e";
+        final String API_KEY = "AIR VISUAL KEY HERE";
         String s = url + "?lat=" + lat +"&"+ "lon=" + lon +"&"+ "key=" + API_KEY;
 
         return new MyLoader(this,s);
